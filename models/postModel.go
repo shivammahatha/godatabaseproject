@@ -9,3 +9,11 @@ type Post struct {
 	Name string    
 	MobileNumber string 
 }
+type Description struct {
+	gorm.Model
+	userId string
+	title string
+	body string
+}
+
+		
