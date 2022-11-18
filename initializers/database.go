@@ -31,4 +31,5 @@ var err  error
 	}
 
 	DB.AutoMigrate(&models.Post{})
+	DB.AutoMigrate(&models.Apipost{})
 }
